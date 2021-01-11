@@ -17,8 +17,6 @@ $.ajax({
     async: false
 });
 
-$.getScript("https://connect.facebook.net/en_US/sdk.js");
-
 function getVerb() {
     var verb = data["verbo"][Math.floor(Math.random() * data["verbo"].length)];
     return verb[0].toUpperCase() + verb.slice(1) + " ";

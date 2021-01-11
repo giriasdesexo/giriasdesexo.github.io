@@ -5,7 +5,29 @@
     text-align: center;
 }
 
+#result {
+    height: 3em;
+    margin: 25px;
+}
+
 #result>p {
-    font-size: 40px;
+    font-size: 2.5em;
     display: inline;
+}
+
+.subtitle {
+    font-size: 1.7em;
+}
+
+.social-container {
+    margin: 10px;
+}
+
+.social-icon {
+    font-size: 2em;
+    color: crimson;
+}
+
+.social-icon:hover {
+    color: #EC244C;
 }
