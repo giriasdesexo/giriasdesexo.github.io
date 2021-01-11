@@ -17,6 +17,7 @@ $.ajax({
     async: false
 });
 
+$.getScript("https://connect.facebook.net/en_US/sdk.js");
 
 function getVerb() {
     var verb = data["verbo"][Math.floor(Math.random() * data["verbo"].length)];
