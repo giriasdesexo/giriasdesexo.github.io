@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+.title {
+    width: 500px;
+    margin: 30px;
+}
+
 #result {
     height: 3em;
     margin: 25px;
